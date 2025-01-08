@@ -22,12 +22,13 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
-  as?: any;
+  as?: React.ElementType;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
+  // [key: string]: any;
+  otherProps: React.ComponentProps<React.ElementType>; 
 }) {
   return (
     <Component
@@ -80,7 +81,8 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  // [key: string]: any;
+  otherProps: React.SVGProps<SVGSVGElement>; 
 }) => {
   const pathRef = useRef<any>();
   const progress = useMotionValue<number>(0);
