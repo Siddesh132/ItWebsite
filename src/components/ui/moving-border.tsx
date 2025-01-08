@@ -25,9 +25,9 @@ export function Button({
   as?: React.ElementType;
   containerClassName?: string;
   borderClassName?: string;
-  duration?: number;0
+  duration?: number;
   className?: string;
-  [key: string]: any;
+  [key: string]: unknown;
   // otherProps: React.ComponentProps<React.ElementType>; 
 }) {
   return (
@@ -81,7 +81,7 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  [key: string]: unknown;
   // otherProps: React.SVGProps<SVGSVGElement>; 
 }) => {
   const pathRef = useRef<SVGRectElement | null>(null);
