@@ -25,10 +25,10 @@ export function Button({
   as?: React.ElementType;
   containerClassName?: string;
   borderClassName?: string;
-  duration?: number;
+  duration?: number;0
   className?: string;
-  // [key: string]: any;
-  otherProps: React.ComponentProps<React.ElementType>; 
+  [key: string]: any;
+  // otherProps: React.ComponentProps<React.ElementType>; 
 }) {
   return (
     <Component
@@ -81,8 +81,8 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  // [key: string]: any;
-  otherProps: React.SVGProps<SVGSVGElement>; 
+  [key: string]: any;
+  // otherProps: React.SVGProps<SVGSVGElement>; 
 }) => {
   const pathRef = useRef<SVGRectElement | null>(null);
   const progress = useMotionValue<number>(0);
