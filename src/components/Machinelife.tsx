@@ -7,7 +7,7 @@ const Machinelife = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#0a0a0a] overflow-x-hidden">
       <div className="flex flex-col items-center justify-center space-y-8">
         {/* Video Section */}
-        <div className="flex items-center justify-center min-h-screen bg-black">
+        <div className="flex items-center justify-center  bg-black">
         <video
             className="w-screen h-auto"
             controls

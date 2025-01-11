@@ -24,7 +24,7 @@ const Whychooseus = () => {
           and customer satisfaction. Our team of experts ensures that you get
           the best value for your investment.
         </p>
-        <ul className="list-disc list-inside text-gray-300 text-lg">
+        <ul className="list-disc list-inside text-gray-300 text-lg text-left">
           <li>High-quality, accurate data annotations tailored to your specific needs.</li>
           <li>Scalable solutions for growing AI models.</li>
           <li>Cost-effective services to fit various project scales.</li>

@@ -9,6 +9,7 @@ import DataAna from  '../images/DataAna.png'
 import medical from '../images/medical.png'
 import datalabel from '../images/datalabel.png'
 import health from '../images/healthcare.png'
+import ResourceContent from "./ResourceContent";
  
 export function BackgroundGradientDemo() {
   return (
@@ -61,6 +62,9 @@ export function BackgroundGradientDemo() {
         Learn how Prithvi Technologies supported an agricultural AI solution with accurate annotation of crops and soil data, enhancing model performance.
         </p>
       </BackgroundGradient>
+      <div className="w-full">
+      <ResourceContent/>
+      </div>
       <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 max-w-sm bg-black dark:bg-zinc-900">
         <Image
           src={DataAna}
